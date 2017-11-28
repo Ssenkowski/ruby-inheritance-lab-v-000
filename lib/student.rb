@@ -1,5 +1,5 @@
 class Student < User
-  
+
     attr_accessor :knowledge
 
     initialize
@@ -14,4 +14,4 @@ class Student < User
       @knowledge
     end
 
-end
+
