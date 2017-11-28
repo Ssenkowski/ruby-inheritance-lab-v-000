@@ -2,5 +2,9 @@ class Student < User
 attr_accessor :first_name, :last_name
 
 initialize(knowledge)
-knowledge = []
+  @knowledge = []
+end
+
+def learn(knowledge)
+  @knowledge << knowledge
 end
