@@ -6,7 +6,7 @@ initialize(knowledge)
 end
 
 def learn("#{KNOWLEDGE}")
-  @knowledge << KNOWLEDGE
+  @knowledge << "#{KNOWLEDGE}"
 end
 
 def knowledge
