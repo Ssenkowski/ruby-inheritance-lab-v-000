@@ -11,5 +11,4 @@ end
 
 def knowledge
   @knowledge
-  
 end
